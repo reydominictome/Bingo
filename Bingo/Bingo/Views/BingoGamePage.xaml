@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bingo.Views.BingoGamePage"
+             xmlns:vm="clr-namespace:Bingo.ViewModels">
+    <ContentPage.BindingContext>
+        <vm:BingoGameViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" BackgroundColor="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="B" HorizontalTextAlignment="Center" FontSize="75" TextColor="Red" Grid.Row ="0" Grid.Column="0" Padding="5,0,5,0"/>
+            <Button Text="{Binding Path=B1}" x:Name="B1" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="B1" Grid.Row ="1" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=B2}" x:Name="B2" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="B2" Grid.Row ="2" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=B3}" x:Name="B3" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="B3" Grid.Row ="3" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=B4}" x:Name="B4" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="B4" Grid.Row ="4" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=B5}" x:Name="B5" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="B5" Grid.Row ="5" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="I" HorizontalTextAlignment="Center" FontSize="75" TextColor="Red" Grid.Row ="0" Grid.Column="1" Padding="5,0,5,0"/>
+            <Button Text="{Binding Path=I1}" x:Name="I1" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="I1" Grid.Row ="1" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=I2}" x:Name="I2" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="I2" Grid.Row ="2" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=I3}" x:Name="I3" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="I3" Grid.Row ="3" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=I4}" x:Name="I4" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="I4" Grid.Row ="4" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=I5}" x:Name="I5" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="I5" Grid.Row ="5" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="N" HorizontalTextAlignment="Center" FontSize="75" TextColor="Red" Grid.Row ="0" Grid.Column="2" Padding="5,0,5,0"/>
+            <Button Text="{Binding Path=N1}" x:Name="N1" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="N1" Grid.Row ="1" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=N2}" x:Name="N2" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="N2" Grid.Row ="2" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=N3}" x:Name="N3" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="N3" Grid.Row ="3" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=N4}" x:Name="N4" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="N4" Grid.Row ="4" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=N5}" x:Name="N5" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="N5" Grid.Row ="5" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="G" HorizontalTextAlignment="Center" FontSize="75" TextColor="Red" Grid.Row ="0" Grid.Column="3" Padding="5,0,5,0"/>
+            <Button Text="{Binding Path=G1}" x:Name="G1" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="G1" Grid.Row ="1" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=G2}" x:Name="G2" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="G2" Grid.Row ="2" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=G3}" x:Name="G3" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="G3" Grid.Row ="3" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=G4}" x:Name="G4" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="G4" Grid.Row ="4" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=G5}" x:Name="G5" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="G5" Grid.Row ="5" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="O" HorizontalTextAlignment="Center" FontSize="75" TextColor="Red" Grid.Row ="0" Grid.Column="4" Padding="5,0,5,0"/>
+            <Button Text="{Binding Path=O1}" x:Name="O1" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="O1" Grid.Row ="1" Grid.Column="4" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=O2}" x:Name="O2" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="O2" Grid.Row ="2" Grid.Column="4" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=O3}" x:Name="O3" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="O3" Grid.Row ="3" Grid.Column="4" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=O4}" x:Name="O4" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="O4" Grid.Row ="4" Grid.Column="4" HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding Path=O5}" x:Name="O5" Clicked="CombinationClicked" FontSize="45" BackgroundColor="Yellow" CommandParameter="O5" Grid.Row ="5" Grid.Column="4" HorizontalOptions="FillAndExpand"/>
+
+            <Button Text="Submit" x:Name="Submit" BackgroundColor="Green" Grid.Row ="6" Grid.Column="1" Grid.ColumnSpan ="3" HorizontalOptions="FillAndExpand" Command="{Binding SubmitCommand}" FontSize="35"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

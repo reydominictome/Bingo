@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bingo.Views.CodeRegisterPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+            </Grid.RowDefinitions>
+            <Label Text="B I N G O" HorizontalTextAlignment="Center" FontSize="75" TextColor="Red" Grid.Row ="0"/>
+            <Entry Placeholder ="Input Game Code" FontSize="35" Text="{Binding Path=Token}" Grid.Row="1" BackgroundColor="White"/>
+            <Button Text="Enter Game" Command="{Binding JoinGameCommand}" Grid.Row="2" BackgroundColor="Green" FontSize="35"/>
+         </Grid>
+    </ContentPage.Content>
+</ContentPage>

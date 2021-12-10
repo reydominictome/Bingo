@@ -1,0 +1,17 @@
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\bin\Debug\netstandard2.0\Bingo.deps.json
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\bin\Debug\netstandard2.0\Bingo.dll
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\bin\Debug\netstandard2.0\ref\Bingo.dll
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\bin\Debug\netstandard2.0\Bingo.pdb
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\Bingo.csproj.AssemblyReference.cache
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\Bingo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\Views\BingoGamePage.xaml.g.cs
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\Views\CodeRegisterPage.xaml.g.cs
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\Bingo.AssemblyInfoInputs.cache
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\Bingo.AssemblyInfo.cs
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\Bingo.csproj.CoreCompileInputs.cache
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\Bingo.dll
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\ref\Bingo.dll
+C:\Users\Rey\source\repos\Bingo\Bingo\Bingo\obj\Debug\netstandard2.0\Bingo.pdb
